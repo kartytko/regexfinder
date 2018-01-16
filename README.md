@@ -1,4 +1,4 @@
-# webowe
+# REGEXfinder
 Project on regular expressions. 
 
 Available functions: 
