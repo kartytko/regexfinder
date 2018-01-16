@@ -1,0 +1,164 @@
+body{
+
+	background-color: #303030;
+    color: #ffffff;
+	font-family: "Verdana", sans-serif;
+}
+
+/* links */
+a:link{}
+a:visited{}
+a:hover{}
+
+
+/* divs */
+#maindiv{
+	width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+    text-align: center;
+}
+
+#logo{
+	color: white;
+	text-align: center; 
+	/*padding: 5px;*/ 
+}
+
+#menu{
+    padding-left: 290px;    }
+
+
+#ads{
+	background: grey;
+	min-height: 100px;
+	padding: 2px;
+}
+
+.menutile{
+	float:left;
+	text-align: center;
+	height: 75px;
+	width: 140px;
+	margin: 5px;
+	padding-top: 60px;
+	background-color: #ffffff;
+	color: #303030;
+	border-radius: 	70px;
+
+}
+
+.menutile:hover{
+	background-color: #aaaaaa;
+	cursor: pointer;
+}
+
+
+#logowanie{
+	padding-top: 30px;
+	padding-bottom: 15px;
+	text-align: center;
+	color: #303030;
+	background-color: #ffffff;
+	min-height: 100px;
+	margin-left: 5px;
+	margin-right: 5px;
+	margin-top: 25px;
+	border-radius: 5px;
+
+}
+
+.submitbutton{
+	border: 1px solid #dddddd;
+	padding: 10px;	
+	border-radius: 15px;
+	background-color:  #EEEEEE;
+
+}								
+
+
+
+
+
+
+/*
+#popup {
+    position: fixed;
+    top: 0;
+    
+    background-color: rgba(255, 255, 255, 0.6);
+    width: 100%;
+    height: 100%;
+	display: none; 
+}
+
+#popup .popup-inner {
+    position: absolute;
+    background-color: #fff;
+    top: 100px;
+    width: 600px;
+    height: auto;
+    
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    
+    padding: 20px;
+    
+    border: 1px solid #fff;
+    border-radius: 10px;
+    
+    text-align: center;
+}
+
+#popup .popup-inner .close {
+    position: absolute;
+    right: 25px;
+}
+
+#popup .popup-inner img {
+    height: 200px;    
+
+}
+
+#popup .popup-inner form input[type="email"] {
+    display: block;
+    margin: 20px auto;
+    border: 1px solid #ff7900;
+    padding: 5px;
+    width: 300px;
+    
+}
+
+#popup .popup-inner form input[type="submit"], #pobierz-informator {
+    display: block;
+    margin: auto;
+    border: 1px solid #ff7900;
+    border-radius: 300px;
+    text-transform: uppercase;
+    background: #ff7900;
+    color: #fff;
+    padding: 10px 20px;
+    font-family: 'Open Sans','Helvetica Neue', Arial,sans-serif;
+    font-weight: 700;
+
+}
+
+#popup .popup-inner form input[type="submit"]:hover, #pobierz-informator:hover {
+    background: #f5a659;
+    border: 1px solid #f5a659;
+}
+
+#pobierz-informator {
+    color: #fff;
+    text-decoration: none;
+    display: none;
+    width: 55%;
+}
+
+#pobierz-informator:hover {
+    color: #fff;
+    text-decoration: none;
+}
+
+*/

@@ -1,0 +1,645 @@
+body{
+    /* Background pattern from subtlepatterns.com */
+    /*background: url("/opt/lampp/htdocs/webowe/img");*/
+    background-image: url('    https://www.toptal.com/designers/subtlepatterns/patterns/green_dust_scratch.png');
+    color: #303030;
+    font-family: 'Unica One', cursive;
+    padding-top: 10%;
+   /* background-color: #303030;*/
+    
+}
+
+/* links */
+a:link{
+    color: #FFC300;
+    text-decoration: none;
+}
+a:visited{
+    color: #FFC300;
+text-decoration: none;
+}
+a:hover{
+    color: #EEB200;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+h1{
+    font-size: 180px;
+    color: #ffffff ;
+    text-align: center;
+    font-family: "Arial";
+}
+
+h2{
+    font-family: 'Righteous', cursive;
+    color: #AAAAAA;
+    letter-spacing: 2pt;
+}
+
+/* divs */
+
+#maindiv{
+	width: 1020px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#leftcontainer{
+    float: left;
+    width: 200px;
+    margin-right: 10px
+}
+
+#leftmenu{
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+    height: auto;
+
+    font-family: 'Unica One', cursive;
+    color: #AAAAAA
+    font-size: 20px;
+    background-color: rgb(255, 255, 255, 0);
+    text-align: center;
+}
+
+.leftmenutile{
+    
+    height: 22px;
+    width: 130px;
+    padding-top: 2px;
+    margin-left: 35px;
+    background-color: rgba(153, 153, 153);
+    border-radius: 10px;
+    transition: transform 0.1s ease-in-out;
+    transition: background-color 0.1s ease-in-out;
+    transition: color 0.1 ease-in-out;
+
+
+    text-align: center;
+    color: #FFFFFF;
+    font-weight: bold;
+    font-size: 15px;
+    font-family: 'Unica One', cursive;
+    letter-spacing: 2pt;
+}
+
+.leftmenutile:hover{
+    background-color: rgba(255, 195, 0, 1);
+    color: #FFFFFF;
+    cursor: pointer;
+    transform: scale(0.9);
+}
+
+#middlecontainer{
+    float: left;
+    width: 500px;
+}
+
+
+#rightcontainer{
+    float: left;
+    width: 300px;
+    margin-left: 10px;
+}
+
+#profil{
+    font-family: 'Unica One', cursive;
+    color: #888888;
+    font-size: 18px;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    height: 80px;
+    padding-top: 40px;
+    margin-left: 86px;
+    margin-right: 86px ;
+    border-radius:  90px;
+}
+
+#matches{
+    margin-bottom: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+    height: 120px;
+    overflow: scroll;
+    overflow-x: hidden;
+
+    font-family: 'Unica One', cursive;
+    color: #AAAAAA
+    font-size: 20px;
+    background-color: rgb(255, 255, 255,0);
+    text-align: center;
+}
+
+.numergrupy{
+    float:left;
+    color: #888888;
+    background-color: #FFFFFF;
+    font-size: 15px;
+    width: 70px;
+    text-align:  center;
+}
+
+.dopasowanie{
+    float: left;
+    letter-spacing: 1px;
+    color: #888888;
+    background-color: #FFFFFF;
+    font-size: 15px;
+    width: 150px;
+    text-align:  left;
+}
+
+.indeksy{
+    float: left;
+    color: #888888;
+    background-color: #FFFFFF;
+    font-size: 12px;
+    height: 18px;
+    width: 70px;
+    text-align:  center;
+}
+
+#legend{
+/*
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+    padding-top: 10px;
+    padding-bottom: 20px;
+
+    padding-left: 15%;
+    padding-right: 15%;
+    height: 20px;
+*/
+    margin-left: 100px;
+    height: 70px;
+    width: 100px;
+    font-family: 'Unica One', cursive;
+
+    font-size: 15px;
+
+    background-color: rgb(255, 255, 255);
+    border-radius:  50px;
+    
+    text-align: center;
+    padding-top: 30px;
+}
+
+.legendtile{
+    float: left;
+    margin-right: 5px;
+    margin-left: 5px;
+    width: 15px;
+    height: 15px;
+    border-radius: 8px;
+}
+
+.legendtile:hover{
+    cursor: pointer;
+}
+
+#legend .hovertext {
+    position:relative;
+    bottom:30px;
+    left:0px;
+    visibility:hidden;
+}
+
+#legend:hover .hovertext {
+    background-color: #FFFFFF;
+    visibility:visible;
+}
+
+
+#help{
+    margin-top: 10px;
+
+    padding: 10px;
+
+    height: 170px;
+    overflow: scroll;
+    overflow-x: hidden;
+
+    font-family: 'Unica One', cursive;
+    color: #888888;
+    font-size: 16px;
+    background-color: rgb(255, 255, 255,0);
+    text-align: center;
+
+}
+
+.helppattern{
+    float:left;
+    color: #888888;
+    background-color: #FFFFFF;
+    font-family: 'Arial';
+    font-weight: bold;
+    font-size: 15px;
+    height: 19px;
+    width: 50px;
+    text-align:  left;
+}
+
+.helpdes{
+    float: left;
+    width: 200px;
+    text-align: right;
+    background-color: #FFFFFF;
+}
+
+
+.helpflag{
+    float: left;
+    color: transparent;
+    min-width: 5px;
+    margin-left: 5px;
+    height: 15px;
+    width: 15px;
+    border-radius: 10px;
+}
+.helpflag1{
+    float: left;
+    color: transparent;
+    margin-left: 10px;   
+    min-width: 5px;
+}
+.helpflag2{
+    float: left;
+    color: transparent;
+    margin-left: 10px;   
+    min-width: 5px;
+}
+.helpflag3{
+    float: left;
+    color: transparent;
+    margin-left: 10px;   
+    min-width: 5px;
+}
+.helpflag4{
+    float: left;
+    color: transparent;
+    margin-left: 10px;   
+    min-width: 5px;
+}
+
+.helptile{
+
+    margin-top: 4px;
+}
+
+#zalogowany_logo{
+    color: white;
+    text-align: left;
+}
+
+#mainactivity{
+    width: 500px;
+    min-height: 600px;
+    /*background-color: rgba(255, 255, 255);*/
+}
+
+#menu{
+    width: 600px;
+    padding-left: 200px;
+}
+.menutile{
+    float:left;
+    text-align: center;
+    height: 75px;
+    width: 140px;
+    margin: 5px;
+    padding-top: 60px;
+    background-color: #ffffff;
+    color: #888888;
+    font-size: 20px;
+    border-radius:  70px;
+    margin-left: 20px;
+}
+.menutile:hover{
+    background-color: #aaaaaa;
+    cursor: pointer;
+}
+
+
+#stopka{
+    margin-top: 10px;
+    text-align: center;
+}
+
+
+.closebutton {
+    position: absolute;
+    left: 25px;
+    transition: transform 0.1s ease-in-out;
+}
+
+.closebutton:hover{
+    cursor: pointer;
+    color: #FFC300;
+    transform: scale(1.7);
+}
+
+
+#logowanie{
+	padding-bottom: 15px;
+	text-align: center;
+	color: #AAAAAA;
+	background-color: rgba(255, 195, 255);
+	min-height: 100px;
+	margin-left: 5px;
+	margin-right: 5px;
+	margin-top: 25px;
+	border-radius: 5px;
+}
+
+.submitbutton{
+	border: 1px solid #dddddd;
+	padding: 10px;	
+	border-radius: 15px;
+	background-color:  #EEEEEE;
+}				
+
+
+#sprawdzbutton{
+    background-color: white;
+    border-radius: 40px;
+    font-family: 'Unica One', cursive;
+    width: 75px;
+    height: 75px;
+    /*transition: transform 0.1s ease-in-out;
+    transition: background-color 1s ease-in-out;
+    transition: color 0.1s ease-in-out;*/
+}
+
+#sprawdzbutton:hover{
+    cursor: pointer;
+    background-color: #aaaaaa;
+
+}				
+
+
+#popup_logowanie {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    display: none;
+    color: #AAAAAA;
+}
+
+#popup_rejestracja {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    display: none;
+    color: #AAAAAA;
+}
+
+
+#popup_kontakt {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    display: none;
+    color: #AAAAAA;
+}
+
+
+.popup_inner{
+    position: absolute;
+    /*background-color: #ffffff;*/
+    background-color: rgba(255, 255, 255);
+    top: 30%;
+    width: 600px;
+    height: auto;
+    
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    
+    padding: 10px;
+    border-radius: 10px;
+    
+    text-align: center;
+}
+
+
+#focia{
+    
+}
+
+
+
+
+
+
+/*textarea {
+    margin: 0;
+    border-radius: 0;
+    width: 500px;
+    font-family: 'Raleway', sans-serif;
+}
+*/
+
+.highlights {
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    font-family: 'Unica One', cursive;
+    font-size: 16px;
+    width: 400px;
+    color: transparent;
+    position: absolute;
+    margin: 1px;
+}
+
+
+textarea {
+    border: 1px solid #cccccc;
+    position: absolute;
+    margin: 0;
+    border-radius: 0;
+    width: 400px;
+    height: 400px;
+    resize: none;
+    font-family: 'Unica One', cursive;
+    font-size: 16px;
+    /*color: #444;  or whatever */
+    color: #999999; 
+    background-color: transparent;
+}
+
+
+mark {
+    color: transparent;
+    background-color: #ccccff; 
+}
+
+
+.mymark{
+    background-color: #FFFFFF;
+    color: #999999;
+    margin-bottom: 3px;
+    margin-top: 3px;
+}
+
+.mymark:hover{
+    background-color: #EEEEEE;
+    cursor: pointer;
+}
+
+#mysidenav{
+    color: #303030;
+}
+
+.backdrop {
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    background-color: #fff; /* or whatever */
+    overflow: auto;
+    width: 400px;
+}
+
+
+.container{
+    position: relative;
+    margin-left: 50px;
+    margin-right: 50px;
+    width: 400px;
+    background-color: #ffffff;
+}
+
+#textarea_input_highlights{
+    background-color: #ffffff;
+    height: 400px;
+}
+.sidenav {
+    height: 0px;
+    width: 200px;
+    position: fixed;
+
+    background-color: rgb(150, 150, 150);
+    color: white;
+    overflow-x: hidden;
+    transition: 0.5s;
+    top: 0;
+    text-align: center;
+    /*padding-top: 20px;*/
+}
+/*
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+*/
+.sidenav a:hover {
+    color: #f1f1f1;
+    text-align: center;
+
+}
+
+.sidenav .closebutton:hover{
+    cursor: pointer;
+    color: #FFFFFF;
+    transform: scale(1.7);
+    position: absolute;
+    top: 0;
+    right: 10px;
+    font-size: 20px;
+    margin-left: 80px;
+
+}
+
+
+.sidenav .closebutton{
+    color: #FFFFFF;
+    position: absolute;
+    top: 0;
+    right: 10px;
+    font-size: 20px;
+    margin-left: 80px;
+}
+
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+} 
+
+#opis{
+    margin-top: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+    text-align: justify;
+}
+
+#tytul_opisu{
+    padding-top: 50px;
+    margin-left: 5px;
+    margin-right: 5px;
+    letter-spacing: 2px;
+}
+
+/*
+
+span{
+    background: none repeat scroll 0 0 #FFFFFF;
+    border: 1px solid #DFDFDF;
+    color: #BBBBBB;
+    font-weight: bold;
+    font-size: 15px;
+    width: 40px;
+    padding: 2px;
+    NOPE letter-spacing: 1px;
+    line-height: 10px;
+    margin: 0 auto;
+    position: relative;
+
+    top: -20px;
+    left: 100px;
+    text-align: center;
+    
+    display:none;
+
+}
+span:after{
+    content:'';
+    position:absolute;
+    NOPEbottom:-10px;
+    NOPEwidth:10px;
+    NOPEheight:10px;
+    border-bottom:1px solid #dfdfdf;
+    border-right:1px solid #dfdfdf;
+    background:#f8f8f8;
+
+}
+p{
+    float: left;
+    position: relative;
+    cursor: pointer;
+    height: 4px;
+}
+
+p:hover span{
+    display:block;
+}
+*/
